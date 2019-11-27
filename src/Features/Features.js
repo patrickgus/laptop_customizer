@@ -14,7 +14,7 @@ export default class Features extends Component {
             selected={selected}
             onSelect={this.props.onSelect}
           />
-      )
+      );
     });
 
     return (
@@ -22,6 +22,6 @@ export default class Features extends Component {
         <h2>Customize your laptop</h2>
         {features}
       </section>
-    )
+    );
   }
 }
