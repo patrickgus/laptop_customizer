@@ -1,8 +1,8 @@
 import React from 'react'
 import FeatureItem from '../FeatureItem/FeatureItem'
-import './FeatureList.css';
+import './Features.css';
 
-export default class Features extends Component {
+export default class Features extends React.Component {
   render() {
     const { selected } = this.props;
     const features = Object.keys(this.props.features).map((key, index) => {
@@ -20,10 +20,10 @@ export default class Features extends Component {
     });
 
     return (
-      <section className="main__form">
+      <form className="main__form">
         <h2>Customize your laptop</h2>
         {features}
-      </section>
+      </form>
     );
   }
 }
