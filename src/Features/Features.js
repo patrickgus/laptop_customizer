@@ -5,9 +5,11 @@ import './FeatureList.css';
 export default class Features extends Component {
   render() {
     const { selected } = this.props;
-    const features = Object.keys(this.props.features).map(key => {
+    const features = Object.keys(this.props.features).map((key, index) => {
+      const featureHash = key + '-' + index;
       return (
           <FeatureItem 
+            featureHash={featureHash}
             name={key} 
             key={key} 
             options={this.props.features[key]} 
