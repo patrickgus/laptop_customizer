@@ -1,6 +1,5 @@
 import React from 'react'
 import FeatureItem from '../FeatureItem/FeatureItem'
-import './Features.css';
 
 export default class Features extends React.Component {
   render() {

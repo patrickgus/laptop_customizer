@@ -1,7 +1,6 @@
 import React from 'react';
 import slugify from 'slugify';
 import FeatureOption from '../FeatureOption/FeatureOption';
-import './FeatureItem.css';
 
 export default class FeatureItem extends React.Component {
   render() {

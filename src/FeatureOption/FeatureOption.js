@@ -1,5 +1,4 @@
 import React from 'react';
-import './FeatureOption.css';
 
 const USCurrencyFormat = new Intl.NumberFormat('en-US', {
   style: 'currency',
