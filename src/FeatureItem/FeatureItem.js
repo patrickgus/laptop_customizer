@@ -14,7 +14,7 @@ export default class FeatureItem extends React.Component {
           key={index} 
           onSelect={this.props.onSelect}
           item={item}
-          featureName={slugify(this.props.name)}
+          featureName={this.props.name}
           itemHash={itemHash}
         />
       );
